@@ -1,0 +1,24 @@
+.coin-container {
+    display: flex;
+}
+
+.coin-row {
+    @extend .coin-container;
+    flex-direction: row;
+    justify-items: start;
+    height: $height;
+    border-bottom: 1px solid #fff;
+    width: $width;
+}
+
+.coin {
+    @extend .coin-container;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.coin.h1 {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
