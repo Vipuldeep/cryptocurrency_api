@@ -8,8 +8,8 @@ const Coin = ({ name, image, symbol, price, volume, priceChange, marketcap }) =>
             <div className="coin-row">
             <div className="coin">
                 {/* target image, volume, price etc */}
-                <img src={image} alt='crypto' />
-                <h1>{name}</h1>
+                <img src={image} alt='crypto' className="coin-image"/>
+                <h1 className="coin-name">{name}</h1>
                 <p className="coin-symbol">{symbol}</p>
             </div>
             <div className="coin-data">
