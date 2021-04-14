@@ -90,3 +90,39 @@
         color: white;
     }
 }
+
+
+@include media(720px) {
+
+    .coin-volume, .coin-symbol, .coin-marketcap {
+       display: none;
+    }
+    
+    .coin-percent, .coin-name, .coin-price {
+        font-size: 16px;
+        height: 20px;
+        min-width: 60px;
+    }
+
+    .coin-name, .coin-price {
+        text-align: left;
+    }
+
+    .coin-percent {
+        text-align: right;
+    }
+
+    .coin-image {
+       min-width: 20px;
+    }
+
+    .coin {
+        min-width: 200px;
+    }
+    
+    .coin-row {
+        margin: 1%;
+        height: 55px;
+    }
+
+}
