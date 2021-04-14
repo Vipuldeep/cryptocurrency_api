@@ -31,7 +31,8 @@ function App() {
   return (
     <div className="coin-app">
       <div className="coin-search">
-    <h1>Search for coin currency</h1>
+    <h1>Cryptocurrency Analyser</h1>
+    
     <form>
       <input type="text" placeholder="search currency" className="coin-input" onChange={handleChange}></input>
     </form>
@@ -47,6 +48,9 @@ function App() {
                 marketcap={coin.market_cap}
           />;
       })}
+      <div className="footer">
+      <a href="https://github.com/Vipuldeep/cryptocurrency_api" className="link" target="_blank" rel="noreferrer">@vipuldeep</a>
+    </div>
     </div>
   );
 }

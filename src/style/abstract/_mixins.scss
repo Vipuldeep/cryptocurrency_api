@@ -1,4 +1,11 @@
 $width: 720px;
+$ipad-width: 900px;
+
+@mixin media($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}
 
 @mixin media($width) {
     @media only screen and (max-width: $width) {

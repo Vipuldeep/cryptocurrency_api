@@ -1,7 +1,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vipuldeep&repo=cryptocurrency_api&layout=compact)](https://github.com/Vipuldeep/github-readme-stats)
 
 ## This portfolio is using custom domain name and is powered by NETLIFY.
-link
+https://cryptocurrencyanalyser.netlify.app/
 
 ## Stack
 
@@ -18,7 +18,7 @@ link
 
 ```bash
 
-# https://www.coingecko.com/en/api
+https://www.coingecko.com/en/api
 
 ```
 
